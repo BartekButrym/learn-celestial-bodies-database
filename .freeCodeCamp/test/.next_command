@@ -78,3 +78,5 @@ psql -U postgres < universe.sql
 psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql --username=freecodecamp --dbname=postgres
+g_dump -cC --inserts -U freecodecamp universe > universe.sql
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
